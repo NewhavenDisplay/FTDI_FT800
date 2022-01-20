@@ -58,7 +58,7 @@ FT800IMPL_SPI FTImpl(FT_CS_PIN,FT_PDN_PIN,FT_INT_PIN);
 
 
 
-PROGMEM char *info[] = {  "FT800 Rotary Dial Application",
+char *info[] = {  "FT800 Rotary Dial Application",
                           "APP to demonstrate interactive rotary dial,",
                           "using Points, Track",
                           "& Stencil"
